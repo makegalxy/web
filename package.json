@@ -4,28 +4,21 @@
   "description": "Convers web application",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky"
-  },
-  "dependencies": {
-    "next": "15.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.2",
-    "husky": "^9.1.7",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "^2.3.0",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20"
   },
   "repository": {
     "type": "git",
