@@ -33,10 +33,10 @@ Set up the web monorepo for Convērs and start building your applications with e
 
 ## 🔧 Requirements
 Ensure the following tools are installed:
-- **Node.js** (>= 18.x)
-- **npm** (>= 9.x) or **yarn** (>= 1.x)
+- **Node.js** (>= 20.x)
+- **npm** (>= 10.x) or **yarn** (>= 1.x)
 - **Docker engine** (optional for API integration)
-- **pnpm** (>= 8.x) for efficient dependency management in the monorepo
+- **pnpm** (>= 9.x) for efficient dependency management in the monorepo
 
 ---
 
