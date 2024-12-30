@@ -1,7 +1,7 @@
 <img src="./docs/cvz-logo.png" alt="Convrz Logo" width="120" height="120">
 
-![Node.js](https://img.shields.io/badge/node-%3E%3D18.x-green.svg)
-![PNPM](https://img.shields.io/badge/pnpm-%3E%3D8.x-yellow.svg)
+![Node.js](https://img.shields.io/badge/node-%3E%3D20.x-green.svg)
+![PNPM](https://img.shields.io/badge/pnpm-%3E%3D9.x-yellow.svg)
 ![Turborepo](https://img.shields.io/badge/turbo-monorepo-orange.svg)
 
 # 🌐 Web - Convērs
